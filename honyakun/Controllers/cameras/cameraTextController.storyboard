@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Camera Text Controller-->
+        <scene sceneID="ggy-F9-y9Q">
+            <objects>
+                <viewController storyboardIdentifier="cameraTextController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vyy-s4-dkZ" customClass="cameraTextController" customModule="honyakun" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cli-ie-21a"/>
+                        <viewControllerLayoutGuide type="bottom" id="IN9-n1-V1X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PCB-SX-whJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o8G-8W-jTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="109"/>
+        </scene>
+        <!--Image Get-->
+        <scene sceneID="ZOK-mk-kb8">
+            <objects>
+                <viewController storyboardIdentifier="ImageGet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Vbi-Am-RNN" customClass="ImageGet" customModule="honyakun" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tHw-a2-KoQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="SIU-xB-Qrw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="weB-iv-Xt9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QyD-Zo-xAn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="846"/>
+        </scene>
+    </scenes>
+</document>
